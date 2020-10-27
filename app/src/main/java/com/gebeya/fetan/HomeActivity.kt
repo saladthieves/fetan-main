@@ -14,7 +14,7 @@ class HomeActivity : BaseActivity() {
         setContentView(R.layout.activity_home)
 
         homeAddRunButton.setOnClickListener {
-            startActivity(Intent(this, AboutActivity::class.java))
+            startActivity(Intent(this, AddRunActivity::class.java))
         }
 
 //        with(AnimatorInflater.loadAnimator(this, R.animator.add_animation)) {
